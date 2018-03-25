@@ -22,5 +22,15 @@ public class BazaSterownikow {
             s.toString();
         }
     }
+    
+    public void removeSterownik(Sterownik sterownik){
+        if(sterowniki.contains(sterownik)){
+            sterowniki.remove(sterownik);
+        }
+    }
 
+    public ArrayList<Sterownik> getSterowniki() {
+        return sterowniki;
+    }
+    
 }

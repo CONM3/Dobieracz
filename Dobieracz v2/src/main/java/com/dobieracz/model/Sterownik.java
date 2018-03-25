@@ -28,6 +28,11 @@ public class Sterownik {
         this.subtype = subtype;
     }
 
+    public Sterownik(String nazwa) {
+        this.nazwa = nazwa;
+    }
+    
+
     @Override
     public String toString() {
         return "Sterownik{" + "nazwa=" + nazwa + '}';
