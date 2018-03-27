@@ -12,4 +12,10 @@
         to jest drugi div
     </div>
 </div>
+
+<form method="post">
+    Name: <input type="text" name="name">
+    Password <input type="text" name="password">
+    <input type="submit">
+</form>
 <%@ include file="common/footer.jspf" %>

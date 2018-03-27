@@ -30,6 +30,9 @@ public class AlgorytmBLC {
         wyliczRezerwe();
     }
 
+    
+    
+
     public void wyliczBLC() {
         if (AO < 1 && AI < 5) {
             vBLC = (int) Math.ceil((BI + BO) / 24);
@@ -94,6 +97,16 @@ public class AlgorytmBLC {
     @Override
     public String toString() {
         return "AlgorytmBLC{" + "AI=" + AI + ", BI=" + BI + ", AO=" + AO + ", BO=" + BO + ", vBLC=" + vBLC + ", vDFM400=" + vDFM400 + ", nAI=" + nAI + ", nBIBO=" + nBIBO + ", nAO=" + nAO + ", rezerwa=" + rezerwa + '}';
+    }
+    
+    
+    public String toStringWynik() {
+        return "AlgorytmBLC{" + 
+               ", vBLC=" + vBLC + "<br>"+
+               ", vDFM400=" + vDFM400 + "<br>"+
+               ", nAI=" + nAI + "<br>"+
+               ", nBIBO=" + nBIBO + "<br>"+
+               ", rezerwa=" + rezerwa + '}';
     }
     
 
